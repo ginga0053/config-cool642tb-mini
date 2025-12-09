@@ -41,6 +41,16 @@
             bindings = <&mkp MB3>;
             key-positions = <7 19>;
         };
+
+        tab {
+            bindings = <&none>;
+            key-positions = <10 11>;
+        };
+
+        esc {
+            bindings = <&none>;
+            key-positions = <0 1>;
+        };
     };
 
     behaviors {
