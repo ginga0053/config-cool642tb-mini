@@ -17,38 +17,13 @@
     combos {
         compatible = "zmk,combos";
 
-        shift_tab {
-            bindings = <&kp LANG2>;
-            key-positions = <12 13>;
-        };
-
-        lang {
-            bindings = <&kp LANG1>;
-            key-positions = <18 19>;
-        };
-
-        click {
-            bindings = <&mkp MB1>;
-            key-positions = <6 18>;
-        };
-
-        right_click {
-            bindings = <&mkp MB2>;
-            key-positions = <8 20>;
-        };
-
-        wheel_click {
-            bindings = <&mkp MB3>;
-            key-positions = <7 19>;
-        };
-
         tab {
-            bindings = <&none>;
+            bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
 
         esc {
-            bindings = <&none>;
+            bindings = <&kp ESC>;
             key-positions = <0 1>;
         };
     };
